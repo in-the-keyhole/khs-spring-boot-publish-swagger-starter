@@ -1,5 +1,5 @@
 # khs-spring-boot-publish-swagger-starter
-A Spring Boot starter for publishing swagger API documentation on startup.
+A Spring Boot starter for publishing (Swagger API)[http://swagger.io] on startup. 
 
 Usage
 ------------
@@ -29,3 +29,9 @@ Add configuration in application.yml:
 	    publish-url: http://someHost:somePort/somePublishUri  // Where to publish the Swagger API
 	    security-token: someToken                             // An optional security token the publish-url is expecting
 	    swagger-url: http://someHost:somePort/someSwaggerUri  // API where swagger API is being served
+
+
+
+
+
+
