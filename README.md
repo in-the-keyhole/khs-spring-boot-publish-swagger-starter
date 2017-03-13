@@ -1,5 +1,10 @@
 # khs-spring-boot-publish-swagger-starter
+
 A Spring Boot starter for publishing [Swagger API](http://swagger.io) on startup. 
+
+Description
+------------
+This Spring Boot starter can be used to POST Swagger JSON to a publishing target (url) upon startup of the Spring Boot application.  The body of the request will be the raw Swagger JSON, and a security token can be applied to ensure that only authorized clients have access.
 
 Usage
 ------------
@@ -22,15 +27,13 @@ Annotate your Spring Boot main class:
 		}
 	}
 
-Add configuration in application.yml:
+Configurable Properties:
 
-	swagger:
-	  publish:
-	    publish-url: http://someHost:somePort/somePublishUri  // Where to publish the Swagger API
-	    security-token: someToken                             // An optional security token the publish-url is expecting
-	    swagger-url: http://someHost:somePort/someSwaggerUri  // API where swagger API is being served
+	swagger.publish.publish-url - Where to publish the Swagger API (will be called with a POST verb)
+	swagger.publish.security-token: An optional security token -- will be sent as a "token" header
+	swagger.publish.swagger-url - The URL that supplies the swagger API, will usually be served from the app itself (see examples below)
 
-Example Configuration(s):
+Example Configuration(s) (i.e. application.yml):
 
 	swagger:
 	  publish:
