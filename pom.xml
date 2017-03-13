@@ -5,7 +5,7 @@
 
 	<groupId>com.keyholesoftware</groupId>
 	<artifactId>khs-spring-boot-publish-swagger-starter</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 
 	<name>Spring Boot Starter - Publish Swagger</name>
 	<description>A spring boot starter configuration for publishing Swagger API Documentation</description>
