@@ -31,8 +31,8 @@ Configurable Properties:
 
 	swagger.publish.publish-url - Where to publish the Swagger API (will be called with a POST verb)
 	swagger.publish.security-token: An optional security token -- will be sent as a "token" header
-	swagger.publish.swagger-url - The URL that supplies the swagger API, will usually be served from the app itself 
-	(see examples below)
+	swagger.publish.swagger-url - The URL that supplies the swagger API, will usually be served from the 
+	app itself (see examples below)
 
 Example Configuration(s):
 ------------
