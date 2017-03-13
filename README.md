@@ -33,8 +33,11 @@ Configurable Properties:
 	swagger.publish.security-token: An optional security token -- will be sent as a "token" header
 	swagger.publish.swagger-url - The URL that supplies the swagger API, will usually be served from the app itself (see examples below)
 
-Example Configuration(s) (i.e. application.yml):
+Example Configuration(s):
+------------
 
+(i.e. application.yml)
+	
 	swagger:
 	  publish:
 	    publish-url: http://beta.grokola.com/swagger/publish/1027
