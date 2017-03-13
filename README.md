@@ -1,5 +1,5 @@
 # khs-spring-boot-publish-swagger-starter
-A Spring Boot starter for publishing (Swagger API)[http://swagger.io] on startup. 
+A Spring Boot starter for publishing [Swagger API](http://swagger.io) on startup. 
 
 Usage
 ------------
