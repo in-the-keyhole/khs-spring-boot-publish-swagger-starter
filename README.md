@@ -30,8 +30,16 @@ Add configuration in application.yml:
 	    security-token: someToken                             // An optional security token the publish-url is expecting
 	    swagger-url: http://someHost:somePort/someSwaggerUri  // API where swagger API is being served
 
+Example Configuration(s):
 
-
-
-
-
+	swagger:
+	  publish:
+	    publish-url: http://beta.grokola.com/swagger/publish/1027
+	    security-token: 9a019713-XXXX-XXXX-XXXX-74090a0ea9f7
+	    swagger-url: http://127.0.0.1:${server.port}/v2/api-docs
+	   
+	swagger:
+	  publish:
+	    publish-url: http://beta.grokola.com/swagger/publish/1027
+	    security-token: 9a019713-XXXX-XXXX-XXXX-74090a0ea9f7
+	    swagger-url: http://127.0.0.1:${server.port}/swagger.json	   
