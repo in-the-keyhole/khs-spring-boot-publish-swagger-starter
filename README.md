@@ -24,4 +24,8 @@ Annotate your Spring Boot main class:
 
 Add configuration in application.yml:
 
-swagger:
+	swagger:
+	  publish:
+	    publish-url: http://someHost:somePort/somePublishUri  // Where to publish the Swagger API
+	    security-token: someToken                             // An optional security token the publish-url is expecting
+	    swagger-url: http://someHost:somePort/someSwaggerUri  // API where swagger API is being served
