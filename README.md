@@ -1,7 +1,7 @@
 # khs-spring-boot-publish-swagger-starter
 A Spring Boot starter for publishing swagger API documentation on startup.
 
-Installation
+Usage
 ------------
 Add this dependency to your pom.xml:
 
