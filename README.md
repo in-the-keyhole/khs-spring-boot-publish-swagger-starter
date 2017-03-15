@@ -12,7 +12,7 @@ Add this dependency to your pom.xml:
 
 	<dependency>
 		<groupId>com.keyholesoftware</groupId>
-		<artifactId>khs-spring-publish-swagger-starter</artifactId>
+		<artifactId>khs-spring-boot-publish-swagger-starter</artifactId>
 		<version>1.0.0</version>
 	</dependency>	
 
