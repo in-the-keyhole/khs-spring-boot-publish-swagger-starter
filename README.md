@@ -38,6 +38,9 @@ Example Configuration(s):
 ------------
 
 (i.e. application.yml)
+
+
+Publish from running Swagger doc API
 	
 	swagger:
 	  publish:
@@ -45,6 +48,8 @@ Example Configuration(s):
 	    security-token: 9a019713-XXXX-XXXX-XXXX-74090a0ea9f7
 	    swagger-url: http://127.0.0.1:${server.port}/v2/api-docs
 	   
+Publish from Swagger JSON file
+
 	swagger:
 	  publish:
 	    publish-url: http://beta.grokola.com/swagger/publish/1027
