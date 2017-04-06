@@ -45,6 +45,7 @@ public class EnablePublishSwaggerConfiguration implements ApplicationListener<Ap
 		try {
 			HttpHeaders headers = new HttpHeaders();
 			headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
+			headers.setContentType(MediaType.APPLICATION_JSON);
 			headers.set("token", securityToken);
 			objectMapper.setVisibility(PropertyAccessor.FIELD, Visibility.ANY);
 
