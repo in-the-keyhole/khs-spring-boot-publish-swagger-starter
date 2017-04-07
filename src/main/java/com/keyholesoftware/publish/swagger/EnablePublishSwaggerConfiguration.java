@@ -1,5 +1,6 @@
 package com.keyholesoftware.publish.swagger;
 
+import java.nio.charset.Charset;
 import java.util.Arrays;
 
 import org.slf4j.Logger;
@@ -45,6 +46,8 @@ public class EnablePublishSwaggerConfiguration implements ApplicationListener<Ap
 		try {
 			HttpHeaders headers = new HttpHeaders();
 			headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
+			headers.setContentType(MediaType.APPLICATION_JSON_UTF8);
+
 			headers.set("token", securityToken);
 			objectMapper.setVisibility(PropertyAccessor.FIELD, Visibility.ANY);
 

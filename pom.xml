@@ -5,7 +5,7 @@
 
 	<groupId>com.keyholesoftware</groupId>
 	<artifactId>khs-spring-boot-publish-swagger-starter</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.2</version>
 
 	<name>Spring Boot Starter - Publish Swagger</name>
 	<description>A spring boot starter configuration for publishing Swagger API Documentation</description>
@@ -115,20 +115,20 @@
 					</execution>
 				</executions>
 			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-gpg-plugin</artifactId>
-				<version>1.5</version>
-				<executions>
-					<execution>
-						<id>sign-artifacts</id>
-						<phase>verify</phase>
-						<goals>
-							<goal>sign</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
+			<!--<plugin>-->
+				<!--<groupId>org.apache.maven.plugins</groupId>-->
+				<!--<artifactId>maven-gpg-plugin</artifactId>-->
+				<!--<version>1.5</version>-->
+				<!--<executions>-->
+					<!--<execution>-->
+						<!--<id>sign-artifacts</id>-->
+						<!--<phase>verify</phase>-->
+						<!--<goals>-->
+							<!--<goal>sign</goal>-->
+						<!--</goals>-->
+					<!--</execution>-->
+				<!--</executions>-->
+			<!--</plugin>-->
 		</plugins>
 	</build>
 
